@@ -1,0 +1,21 @@
+.navbar-brand span,
+#about h1 span,
+#testimonial span {
+    color: yellow;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.color-box i {
+    background-color: yellow;
+}
+
+
+.option {
+    border: 3px solid yellow;
+}
+
+
+.dropdown-menu {
+    border-top: 3px solid yellow;
+}

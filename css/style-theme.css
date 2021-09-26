@@ -1,0 +1,141 @@
+/* body {
+    /* overflow: hidden; 
+ } */
+body { padding-top: 63px; }
+
+.navbar-brand {font-size: 25px;}
+
+.nav-item {margin-right: 10px;}
+
+.dropdown-menu {min-width: 12rem;}
+
+.dropdown-item {padding: 0.35rem 1rem;}
+
+.dropdown-item:focus,.dropdown-item:hover {padding-left: 25px;}
+
+.dropdown-divider {color: #871818;}
+
+.navbar-dark .navbar-nav .nav-link {font-size: 17px;}
+
+.dropdown-menu[data-bs-popper] {margin-top: 0.5rem;}
+
+#myslide .carousel-inner img {max-height:600px ;}
+
+#testimonial  .carousel-indicators [data-bs-target] {text-indent: 0;}
+
+#testimonial .carousel-indicators button {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#testimonial .carousel-indicators button img {max-width: 100%;}
+
+#price .plan-box {background-color: #fff;border: 1px solid #ddd;}
+
+#price .plan-box p {
+    width: 90px;
+    height: 90px;
+    line-height: 80px;
+    border: 2px solid #fff;
+}
+
+#price .plan-box:hover p {
+    transform: scale(1.1) rotate(1turn);
+    border: 2px solid #dfdfdf;
+}
+
+#subscribe .input-group>.form-control {max-width: 300px;}
+
+#contact .input-group>.form-control {border: none;}
+
+#contact textarea.form-control {height: 87px;}
+
+.form-control:focus {box-shadow: none;}
+
+#clients img {filter: grayscale(100%);}
+
+#clients img:hover {filter: grayscale(0);}
+
+/* start footer */
+footer {background-color: #111;color: #aaa;}
+
+footer ul img {opacity: 0.7;cursor: pointer;}
+
+footer ul img:hover {opacity: 1;}
+
+/* end footer */
+
+/* start color box */
+.color-box {z-index: 99999;top: 100px;}
+.option {display: none;}
+
+.option.show {display: block;}
+
+.color-box i,.color-box li {cursor: pointer;}
+
+.color-box i {padding: 5px;height:max-content;}
+
+.color-box li {width: 15px;height: 15px;background-color: #e41817;}
+
+.color-box li:nth-child(2) {background-color: blue;}
+
+.color-box li:nth-child(3) {background-color: yellow;}
+/* end color box */
+
+/* start grop */
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link:hover,
+.dropdown-item:focus,.dropdown-item:hover,
+.dropdown-item,#our-team h2,
+#statistics .container .stat:hover,
+#contact .input-group>.form-control,
+.option {color: #fff;}
+
+#price,#feature,
+#price .plan-box p,
+#subscribe,
+#clients {background-color: #eee;}
+
+#statistics,
+#our-team,
+#contact {
+    background: url(../img/team.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400px;
+}
+
+#our-team .team,
+#statistics .data,
+#contact .mask  {background-color: rgba(0,0, 0, 0.75);min-height: 400px; color: #b6b5b5;}
+
+.dropdown-menu,
+#contact .input-group>.form-control,
+footer .copyright,
+.option {background-color: #333;}
+
+
+.dropdown-item,#price .plan-box p,
+#statistics .container .stat:hover,
+#clients img,
+footer ul img  {transition: 0.4s;}
+
+
+/* end grop */
+
+
+/* start other pages */
+.bread-crump,
+.manager {
+    background-color: #eee;
+}
+
+/* end other pages */
+
+
+

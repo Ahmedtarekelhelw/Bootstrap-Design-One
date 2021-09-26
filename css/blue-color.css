@@ -1,0 +1,21 @@
+.navbar-brand span,
+#about h1 span,
+#testimonial span {
+    color: blue;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.color-box i {
+    background-color: blue;
+}
+
+
+.option {
+    border: 3px solid blue;
+}
+
+
+.dropdown-menu {
+    border-top: 3px solid blue;
+}

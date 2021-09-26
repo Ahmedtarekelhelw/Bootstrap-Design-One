@@ -1,0 +1,22 @@
+
+.navbar-brand span,
+#about h1 span,
+#testimonial span {
+    color: #e41817;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.color-box i {
+    background-color: #e41817;
+}
+
+
+.option {
+    border: 3px solid #e41817;
+}
+
+
+.dropdown-menu {
+    border-top: 3px solid #e41817;
+}

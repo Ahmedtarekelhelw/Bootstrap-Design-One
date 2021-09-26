@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this bootstrp website">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style-theme.css">
+    <link rel="stylesheet" href="css/red-color.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    <!-- start nav  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Elhelw <span>Inc.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="links">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Web Design</a></li>
+                        <li><a class="dropdown-item" href="#">Programing</a></li>
+                        <li><a class="dropdown-item" href="#">Frontend</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Graphic</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="FAQ.html">FQA</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+<!--end nav  -->
+<!-- start carousel -->
+    <div id="myslide" class="carousel carousel-dark slide carousel-fade d-sm-block d-none" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myslide" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myslide" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myslide" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/01.jpg" class="d-block w-100" alt="slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/02.jpg" class="d-block w-100" alt="slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/03.jpg" class="d-block w-100" alt="slider">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myslide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myslide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!-- end carousel -->
+<!-- start About -->
+    <section id ="about" class="mt-5 mb-5 text-center">
+        <div class="container">
+            <h1>Welcome to my website <span>Elhelw Inc.</span></h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos totam repellat ratione
+                velit dicta suscipit ipsa perferendis quam ex?</p>
+        </div>
+    </section>
+<!-- end About -->
+<!-- start feature -->
+    <div id = "feature" class="mt-5 mb-5 pb-5 pt-5 text-center">
+        <div class="container">
+            <h2 class="pb-4">Our Feature</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat mb-4">
+                        <i class="bi bi-book-half fs-3"></i>
+                        <h4>100% Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat hic harum doloribus illum voluptatibus praesentium unde cum nisi, atque in aperiam ducimus.
+                            Quisquam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat mb-4">
+                        <i class="bi bi-book-half fs-3"></i>
+                        <h4>100% Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat hic harum doloribus illum voluptatibus praesentium unde cum nisi, atque in aperiam ducimus.
+                            Quisquam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat mb-4">
+                        <i class="bi bi-book-half fs-3"></i>
+                        <h4>100% Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat hic harum doloribus illum voluptatibus praesentium unde cum nisi, atque in aperiam ducimus.
+                            Quisquam</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat mb-4">
+                        <i class="bi bi-book-half fs-3"></i>
+                        <h4>100% Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat hic harum doloribus illum voluptatibus praesentium unde cum nisi, atque in aperiam ducimus.
+                            Quisquam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end feature -->
+<!-- start testimonial -->
+<div id ="testimonial" class="text-center mb-5">
+    <div class="container">
+        <h2>What our clients say</h2>
+        <div id="slide-testimonial" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Aliquid, inventore fugit voluptas soluta
+                        quisquam molestias quaerat cumque nostrum quibusdam dicta vero similique at</p>
+                    <span class="fw-bold">Ahmed Elhelw</span>
+                </div>
+                <div class="carousel-item">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Aliquid, inventore fugit voluptas soluta
+                        quisquam molestias quaerat cumque nostrum quibusdam dicta vero similique at</p>
+                    <span class="fw-bold">Ahmed Elhelw</span>
+                </div>
+                <div class="carousel-item">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. Aliquid, inventore fugit voluptas soluta 
+                            quisquam molestias quaerat cumque nostrum quibusdam dicta vero similique at</p>
+                        <span class="fw-bold">Ahmed Elhelw</span>
+                </div>
+            </div>
+            <div class="carousel-indicators mt-2 position-static">
+                <button type="button" data-bs-target="#slide-testimonial" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                    <img src="img/avatar_01.jpg" alt="avatar">
+                </button>
+                <button  type="button"  data-bs-target="#slide-testimonial" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img src="img/avatar_02.jpg" alt="avatar">
+                </button>
+                <button type="button" data-bs-target="#slide-testimonial" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img src="img/avatar_03.jpg" alt="avatar">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end testimonial -->
+<!-- start price -->
+<div id= "price" class="text-center pt-5 pb-5">
+    <div class="container">
+        <h2 class="mb-5">Our Amazing Prices</h2>
+        <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+                <div class="plan-box p-2">
+                    <h3 class="text-primary">Hosting</h3>
+                    <p class="fw-bold fs-3 m-auto rounded-circle mb-2">40$</p>
+                    <ul class="list-unstyled fw-bold fs-5">
+                        <li class="mb-2">Space: 20Gb</li>
+                        <li class="mb-2">Emails: 40</li>
+                        <li class="mb-2">Ips: 5</li>
+                        <li class="mb-2">DataBases: 20</li>
+                        <li class="mb-2">Ftb: 10</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary mb-3">Order Now</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="plan-box p-2">
+                    <h3 class="text-info">Vps</h3>
+                    <p class="fw-bold fs-3 m-auto rounded-circle mb-2">40$</p>
+                    <ul class="list-unstyled fw-bold fs-5">
+                        <li class="mb-2">Space: 20Gb</li>
+                        <li class="mb-2">Emails: 40</li>
+                        <li class="mb-2">Ips: 5</li>
+                        <li class="mb-2">DataBases: 20</li>
+                        <li class="mb-2">Ftb: 10</li>
+                    </ul>
+                    <a href="#" class="btn btn-info mb-3">Order Now</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="plan-box p-2">
+                    <h3 class="text-danger">Cloud</h3>
+                    <p class="fw-bold fs-3 m-auto rounded-circle mb-2">40$</p>
+                    <ul class="list-unstyled fw-bold fs-5">
+                        <li class="mb-2">Space: 20Gb</li>
+                        <li class="mb-2">Emails: 40</li>
+                        <li class="mb-2">Ips: 5</li>
+                        <li class="mb-2">DataBases: 20</li>
+                        <li class="mb-2">Ftb: 10</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger mb-3">Order Now</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="plan-box p-2">
+                    <h3 class="text-success">Hosting</h3>
+                    <p class="fw-bold fs-3 m-auto rounded-circle mb-2">40$</p>
+                    <ul class="list-unstyled fw-bold fs-5">
+                        <li class="mb-2">Space: 20Gb</li>
+                        <li class="mb-2">Emails: 40</li>
+                        <li class="mb-2">Ips: 5</li>
+                        <li class="mb-2">DataBases: 20</li>
+                        <li class="mb-2">Ftb: 10</li>
+                    </ul>
+                    <a href="#" class="btn btn-success mb-3">Order Now</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- end price -->
+<!-- start our-team -->
+<div id="our-team" class="text-center">
+    <div class="team">
+        <div class="container">
+            <h2 class="pt-5 pb-5 fs-1">Meet Our Team</h2>
+            <div class="row gy-4 pb-5">
+                <div class="col-lg-3 col-md-6 ">
+                    <img class="rounded-circle mb-3" src="img/marissa.jpg" alt="marissa">
+                    <h3>Marissa</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fab fa-facebook-f me-2"></i>
+                    <i class="fab fa-twitter me-2"></i>
+                    <i class="fab fa-google-plus-g me-2"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img class="rounded-circle mb-3" src="img/steve.jpg" alt="steve">
+                    <h3>Steve</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fab fa-facebook-f me-2"></i>
+                    <i class="fab fa-twitter me-2"></i>
+                    <i class="fab fa-google-plus-g me-2"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img class="rounded-circle mb-3" src="img/leah.jpg" alt="leah">
+                    <h3>Leah</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fab fa-facebook-f me-2"></i>
+                    <i class="fab fa-twitter me-2"></i>
+                    <i class="fab fa-google-plus-g me-2"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img class="rounded-circle mb-3" src="img/chris.jpg" alt="chris">
+                    <h3>Chris</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <i class="fab fa-facebook-f me-2"></i>
+                    <i class="fab fa-twitter me-2"></i>
+                    <i class="fab fa-google-plus-g me-2"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+   
+
+</div>
+<!-- end our-team -->
+<!-- start subscribe -->
+<div id="subscribe" class="text-center pt-5 pb-5">
+    <div class="container">
+        <h2>Keep In Touch</h2>
+        <p class="pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="input-group mb-3 justify-content-center">
+            <input type="text" class="form-control form-control-lg" placeholder="Your Email" aria-label="Your Email"
+                aria-describedby="button-addon2">
+            <button class="btn btn-danger btn-lg" type="button" id="button-addon2"><i class="far fa-edit me-1"></i>Subscribe</button>
+        </div>
+    </div>
+</div>
+<!-- end subscribe -->
+<!-- start stat -->
+<div id="statistics" class="text-center">
+    <div class="data">
+        <div class="container">
+            <h2 class="pt-5 pb-5">Our Main Statistics</h2>
+            <div class="row gy-4 pb-5">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="stat">
+                        <i class="fas fa-users fa-5x"></i>
+                        <p class="fs-2 fw-bold mb-0">2,500</p>
+                        <span>Users</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="stat">
+                        <i class="fas fa-comments fa-5x"></i>
+                        <p class="fs-2 fw-bold mb-0">29,864</p>
+                        <span>Comments</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="stat">
+                        <i class="fas fa-suitcase fa-5x"></i>
+                        <p class="fs-2 fw-bold mb-0">90,564</p>
+                        <span>Users</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="stat">
+                        <i class="far fa-life-ring fa-5x"></i>
+                        <p class="fs-2 fw-bold mb-0">2,468</p>
+                        <span>Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end stat -->
+<!-- start our skills -->
+<div id="our-skills" class="mt-4 mb-4">
+    <div class="container">
+        <h3 class="pb-4 text-center">Our Skills</h3>
+        <div class="row gy-4">
+            <div class="col-lg-5">
+                <div class="skills">
+                    <div class="progress mb-3 fw-bold fs-6" style="height: 30px;">
+                        <div class="progress-bar text-start ps-2 bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100">Html</div>
+                    </div>
+                    <div class="progress mb-3 fw-bold fs-6" style="height: 30px;">
+                        <div class="progress-bar text-start ps-2 bg-info" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
+                            aria-valuemax="100">Css</div>
+                    </div>
+                    <div class="progress mb-3 fw-bold fs-6" style="height: 30px;">
+                        <div class="progress-bar text-start ps-2 bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100">JavaScript</div>
+                    </div>
+                    <div class="progress mb-3 fw-bold fs-6" style="height: 30px;">
+                        <div class="progress-bar text-start ps-2 bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
+                            aria-valuemax="100">Bootstrap</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+                <div class="team-info">
+                    <h4>About The Team</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, eaque, ea, nemo et laudantium ex veritatis neque at maxime ut totam sit. Vel dignissimos a repellat dolor eos magni hic.
+                    </p>
+                    <button class="btn btn-danger">Talk to Professional</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end our skills -->
+<!-- start contact us -->
+<div id="contact" class="text-center">
+    <div class="mask pt-4 pb-5">
+        <div class="container">
+            <i class="fas fa-headphones fa-4x pb-2"></i>
+            <h2 class="text-capitalize">tell us what you feel</h2>
+            <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit,id temporibus,rat veniam magni molestiae</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Address">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group mb-3">
+                        <textarea class="form-control" placeholder="Your Message"></textarea>
+                    </div>
+                        <button class="btn btn-danger form-control" >Contact Us</button>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- end contact us -->
+<!-- start our client -->
+<div id="clients" class="text-center pt-3 pb-3">
+    <div class="container">
+        <ul class="row gy-4 list-unstyled">
+            <li class="col-md-2 col-4">
+                <img class="img-fluid" src="img/logo1.png" alt="logo1">
+            </li>
+            <li class="col-md-2 col-4">
+                <img class="img-fluid" src="img/logo2.png" alt="logo2">
+            </li>
+            <li class="col-md-2 col-4">
+                <img class="img-fluid" src="img/logo4.png" alt="logo4">
+            </li>
+            <li class="col-md-2 col-4">
+                <img class="img-fluid" src="img/logo7.png" alt="logo7">
+            </li>
+            <li class="col-md-2 col-4">
+                <img class="img-fluid" src="img/logo5.png" alt="logo5">
+            </li>
+            <li class="col-md-2 col-4">
+                <img class="img-fluid" src="img/logo6.png" alt="logo6">
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- end our client -->
+<!-- start footer -->
+<footer class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <h3 class="text-capitalize text-primary pb-3">siteMap</h3>
+                <ul class="list-unstyled row g-2">
+                    <li class="col-4">Home</li>
+                    <li class="col-4">SiteMap</li>
+                    <li class="col-4">Contact</li>
+                    <li class="col-4">About</li>
+                    <li class="col-4">Team</li>
+                    <li class="col-4">Skills</li>
+                    <li class="col-4">Clients</li>
+                    <li class="col-4">Phone</li>
+                    <li class="col-4">Mobile</li>
+                </ul>
+                <ul class="list-unstyled d-flex">
+                    <li class="me-2"><img class="img-fluid" src="img/facebook.png" alt="facebook"></li>
+                    <li class="me-2"><img  class="img-fluid" src="img/google.png" alt="google"></li>
+                    <li class="me-2"><img  class="img-fluid" src="img/email.png" alt="email"></li>
+                    <li class="me-2"><img  class="img-fluid" src="img/pintrest.png" alt="pintrest"></li>
+                    <li class="me-2"><img  class="img-fluid" src="img/rss.png" alt="rss"></li>
+                    <li class="me-5"><img  class="img-fluid" src="img/twitter.png" alt="twitter"></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h3 class='text-capitalize text-primary pb-3'>latest article</h3>
+                <div class="d-flex">
+                    <a href="#">
+                        <img src="img/articles/01.jpg" alt="articles">
+                    </a>
+                    <div class="info ms-3">
+                        <h5 class="mb-0">Programming</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <a href="#">
+                        <img src="img/articles/02.jpg" alt="articles">
+                    </a>
+                    <div class="info ms-3">
+                        <h5 class="mb-0">Graphic</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <a href="#">
+                        <img src="img/articles/03.jpg" alt="articles">
+                    </a>
+                    <div class="info ms-3">
+                        <h5 class="mb-0">Web Design</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h3 class='text-capitalize text-primary pb-3'>our awesome work</h3>
+                <img class="img-fluid mb-1 img-thumbnail" src="img/work/01.jpg" alt="work">
+                <img class="img-fluid mb-1 img-thumbnail" src="img/work/02.jpg" alt="work">
+                <img class="img-fluid mb-1 img-thumbnail" src="img/work/03.jpg" alt="work">
+                <img class="img-fluid mb-1 img-thumbnail" src="img/work/04.jpg" alt="work">
+            </div>
+        </div>
+    </div>
+    <div class="copyright text-center pt-3 pb-3 mt-3 fs-5 ">
+        Copyright &copy; 2021 <span class="text-primary">Elhelw</span> Inc.
+    </div>
+</footer>
+<!-- end footer -->
+<!-- start color box -->
+<div class="color-box position-fixed left-0 d-flex">
+    <div class="option px-4 py-2">
+        <h5>Color Option</h5>
+        <ul class="list-unstyled d-flex">
+            <li class="me-2" data-value = "css/red-color.css"></li>
+            <li class="me-2" data-value = "css/blue-color.css"></li>
+            <li data-value = "css/yellow-color.css"></li>
+        </ul>
+    </div>
+    <i class="fas fa-cog fa-2x"></i>
+</div>
+<!-- end color box -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
